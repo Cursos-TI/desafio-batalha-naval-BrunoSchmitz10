@@ -41,11 +41,11 @@ int main() {
     for (int i = 0; i < HABILIDADE; i++){
         for (int j = 0; j < HABILIDADE; j++){
             if (i == 0 && j == HABILIDADE/2) {
-                cone[i][j] = 3;  // Ápice do cone (linha superior)
+                cone[i][j] = 3; 
             } else if (i == 1 && j >= 1 && j <= HABILIDADE-2) {
-                cone[i][j] = 3;  // Segunda linha
+                cone[i][j] = 3; 
             } else if (i == 2) {
-                cone[i][j] = 3;  // Base do cone (linha inferior)
+                cone[i][j] = 3; 
             } else {
                 cone[i][j] = 0;
             }
